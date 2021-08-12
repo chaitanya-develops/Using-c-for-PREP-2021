@@ -38,9 +38,10 @@ void find_data(int value) {
     if(current->data == value){
       printf("The value is present at %d\n",pos);
       return;
+    }
     current = current->next;
     ++pos;
-    }
+    
   }
   printf("The value is not present in the list");
 }
